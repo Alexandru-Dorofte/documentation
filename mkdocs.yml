@@ -4,7 +4,6 @@ theme:
   logo: images/logo.svg
   favicon: images/favicon.svg
   palette:
-  
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
@@ -28,6 +27,10 @@ theme:
 copyright: Copyright &copy; ∞ - Alexandru Dorofte
 extra:
   generator: false
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 extra_css:
   - stylesheets/extra.css
 
